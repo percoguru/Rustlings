@@ -13,6 +13,8 @@ const I_AM_DONE_REGEX: &str = r"(?m)^\s*///?\s*I\s+AM\s+NOT\s+DONE";
 const CONTEXT: usize = 2;
 const CLIPPY_CARGO_TOML_PATH: &str = "./exercises/clippy/Cargo.toml";
 
+// Empty
+
 // Get a temporary file name that is hopefully unique
 #[inline]
 fn temp_file() -> String {
